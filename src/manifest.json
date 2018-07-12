@@ -1,0 +1,12 @@
+{
+    "name": "Codepen Fork Diff",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "View diffs for forked and original projects on https://codepen.io/",
+    "content_scripts": [
+        {
+            "matches": ["https://codepen.io/*/pen/*"],
+            "js": ["content_script.js"]
+        }
+    ]
+}
